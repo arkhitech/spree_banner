@@ -2,6 +2,7 @@ module Spree
   module Admin
     class BannerBoxesController < ResourceController
       
+      
       def index
         respond_with(@collection)
       end
